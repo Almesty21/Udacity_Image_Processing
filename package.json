@@ -1,0 +1,49 @@
+{
+  "name": "image-processing-api udacity sample",
+  "version": "1.0.0",
+  "description": "ALX Full Stack Udacity Nano Degree Image Processing API",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "nodemon src/index.ts",
+    "jasmine": "jasmine",
+	"lint:fix": "eslint --fix"
+    "test": "npm run build; npm run jasmine",
+    "lint": "eslint --ignore-path .gitignore --ext .ts",
+    "format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "keywords": [
+    "Full  Stack",
+    "Nano Degree",
+	"Udacity",
+	"ALX",
+	"API"
+  ],
+  "author": "Engineer Mihretabgirma21@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sharp": "^0.31.2"    
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/jasmine": "^4.3.1",
+    "@types/node": "^18.11.10",
+    "@types/sharp": "^0.31.0",
+    "@types/supertest": "^2.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4",
+    "jasmine": "^4.5.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "supertest": "^6.3.3",
+    "fs": "^0.0.1-security",    
+    "morgan": "^1.10.0"
+  }
+}
